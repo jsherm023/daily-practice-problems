@@ -23,15 +23,26 @@
 # double_numbers([2, 3, 7, 14])
 
 # Question 3
-numbers = [1, 2, 4, 2]
-sum = 0
-index = 0
-while index < 4
-  number = numbers[index]
-  sum = sum + number
-  index = index + 1
+# numbers = [1, 2, 4, 2]
+# sum = 0
+# index = 0
+# while index < 4
+#   number = numbers[index]
+#   sum = sum + number
+#   index = index + 1
+# end
+# p sum
+
+# Question 4
+puts "What is your name?"  
+name = gets.chomp
+while name != "Bob"
+  puts "What is your name?"  
+  name = gets.chomp
 end
-p sum
+
+puts "Hi, Bob!"
+
 
 
 
