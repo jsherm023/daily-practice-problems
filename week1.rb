@@ -10,17 +10,29 @@
 # p sum
 
 # Question 2
-def double_numbers(input)
-  index = 0
-  array = []
-  input.each do
-    x = input[index] * 2
-    array << x
-    index +=1
-  end
-  p array
+# def double_numbers(input)
+#   index = 0
+#   array = []
+#   input.each do
+#     x = input[index] * 2
+#     array << x
+#     index +=1
+#   end
+#   p array
+# end
+# double_numbers([2, 3, 7, 14])
+
+# Question 3
+numbers = [1, 2, 4, 2]
+sum = 0
+index = 0
+while index < 4
+  number = numbers[index]
+  sum = sum + number
+  index = index + 1
 end
-double_numbers([2, 3, 7, 14])
+p sum
+
 
 
 
