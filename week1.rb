@@ -45,10 +45,22 @@
 
 # Question 5
 
+# def average(input)
+#   index = 0
+#   sum = 0
+#   while index < 4
+#     number = input[index]
+#     sum += number
+#     index +=1
+#   end
+#     sum.to_f / input.length
+# end
+# p average([2, 1, 7, 5])
+
 def average(input)
   index = 0
   sum = 0
-  while index < 4
+  input.each do
     number = input[index]
     sum += number
     index +=1
