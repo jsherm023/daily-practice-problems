@@ -34,14 +34,28 @@
 # p sum
 
 # Question 4
-puts "What is your name?"  
-name = gets.chomp
-while name != "Bob"
-  puts "What is your name?"  
-  name = gets.chomp
-end
+# puts "What is your name?"  
+# name = gets.chomp
+# while name != "Bob"
+#   puts "What is your name?"  
+#   name = gets.chomp
+# end
 
-puts "Hi, Bob!"
+# puts "Hi, Bob!"
+
+# Question 5
+
+def average(input)
+  index = 0
+  sum = 0
+  while index < 4
+    number = input[index]
+    sum += number
+    index +=1
+  end
+    sum.to_f / input.length
+end
+p average([2, 1, 7, 5])
 
 
 
